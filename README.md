@@ -17,17 +17,10 @@ Aplikasi counter sederhana dengan tampilan modern yang dibuat menggunakan Flutte
 
 ## 📸 Screenshot Aplikasi
 
-> Tambahkan screenshot aplikasi pada folder project dan rename menjadi:
+> Hasil Aplikasi
 
-```bash
-screenshot.png
-```
+<img width="1080" height="2288" alt="WhatsApp Image 2026-05-08 at 19 22 27" src="https://github.com/user-attachments/assets/d0d7b7ed-3908-4b3b-a28d-7def33d1b3f5" />
 
-Lalu tampilkan dengan:
-
-```md
-![Screenshot Aplikasi](screenshot.png)
-```
 
 ---
 
