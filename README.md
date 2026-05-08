@@ -19,7 +19,7 @@ Aplikasi counter sederhana dengan tampilan modern yang dibuat menggunakan Flutte
 
 > Hasil Aplikasi
 
-<img width="1080" height="2288" alt="WhatsApp Image 2026-05-08 at 19 22 27" src="https://github.com/user-attachments/assets/d0d7b7ed-3908-4b3b-a28d-7def33d1b3f5" />
+<img width="200" height="400" alt="WhatsApp Image 2026-05-08 at 19 22 27" src="https://github.com/user-attachments/assets/d0d7b7ed-3908-4b3b-a28d-7def33d1b3f5" />
 
 
 ---
