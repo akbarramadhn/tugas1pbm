@@ -4,6 +4,16 @@ Aplikasi counter sederhana dengan tampilan modern yang dibuat menggunakan Flutte
 
 ---
 
+## 👨‍🎓 Author
+
+**Nama: M Akbar Ramadhan Ola Sili** 
+
+**Mata Kuliah: Pemrograman Berbasis Mobile (PBM)** 
+
+**Project: Tugas 1 Flutter**
+
+---
+
 ## ✨ Fitur Utama
 
 * ➕ Menambahkan angka counter
@@ -134,16 +144,6 @@ Menggunakan fungsi reusable `_buildButton()` agar kode lebih rapi.
 * UI modern
 * Cocok untuk tugas kuliah maupun portfolio GitHub
 * Mudah dikembangkan lebih lanjut
-
----
-
----
-
-## 👨‍🎓 Author
-
-**Nama: M Akbar Ramadhan Ola Sili** 
-**Mata Kuliah: Pemrograman Berbasis Mobile (PBM)** 
-**Project: Tugas 1 Flutter**
 
 ---
 
