@@ -1,17 +1,172 @@
-# project_pbm
+# 📱 Flutter Counter App - Tugas 1 PBM
 
-A new Flutter project.
+Aplikasi counter sederhana dengan tampilan modern yang dibuat menggunakan Flutter sebagai bagian dari Tugas 1 mata kuliah PBM (Pemrograman Berbasis Mobile).
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Fitur Utama
 
-A few resources to get you started if this is your first Flutter project:
+* ➕ Menambahkan angka counter
+* 🔄 Reset angka kembali ke nol
+* 🎨 Tampilan modern dengan background gradasi
+* ✨ Animasi transisi angka menggunakan `AnimatedSwitcher`
+* 🔘 Tombol custom berbentuk lingkaran dengan efek bayangan
+* 📱 UI sederhana, responsif, dan menarik
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshot Aplikasi
+
+> Tambahkan screenshot aplikasi pada folder project dan rename menjadi:
+
+```bash
+screenshot.png
+```
+
+Lalu tampilkan dengan:
+
+```md
+![Screenshot Aplikasi](screenshot.png)
+```
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+* Flutter
+* Dart
+* Material Design 3
+
+---
+
+## 📂 Struktur Project
+
+```bash
+lib/
+ └── main.dart
+```
+
+---
+
+## 🚀 Cara Menjalankan Project
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/username/nama-repository.git
+```
+
+### 2. Masuk ke Folder Project
+
+```bash
+cd nama-repository
+```
+
+### 3. Install Dependency
+
+```bash
+flutter pub get
+```
+
+### 4. Jalankan Aplikasi
+
+```bash
+flutter run
+```
+
+---
+
+## 🎯 Tujuan Pembelajaran
+
+Project ini dibuat untuk memahami:
+
+* Penggunaan `StatefulWidget`
+* Implementasi `setState()`
+* Pembuatan custom UI di Flutter
+* Penggunaan widget layout seperti:
+
+  * `Column`
+  * `Row`
+  * `Container`
+  * `GestureDetector`
+* Penerapan animasi sederhana
+* Pengelolaan tampilan modern pada aplikasi mobile
+
+---
+
+## 🧠 Penjelasan Kode
+
+### Increment Counter
+
+Menambahkan nilai counter setiap tombol plus ditekan.
+
+```dart
+void _incrementCounter() {
+  setState(() {
+    _counter++;
+  });
+}
+```
+
+### Reset Counter
+
+Mengembalikan nilai counter menjadi 0.
+
+```dart
+void _resetCounter() {
+  setState(() {
+    _counter = 0;
+  });
+}
+```
+
+### AnimatedSwitcher
+
+Memberikan efek animasi saat angka berubah.
+
+### LinearGradient
+
+Digunakan untuk membuat background gradasi modern.
+
+### Custom Button Widget
+
+Menggunakan fungsi reusable `_buildButton()` agar kode lebih rapi.
+
+---
+
+## 🌟 Keunggulan Project
+
+* Desain lebih menarik dibanding counter default Flutter
+* Kode lebih terstruktur
+* UI modern
+* Cocok untuk tugas kuliah maupun portfolio GitHub
+* Mudah dikembangkan lebih lanjut
+
+---
+
+---
+
+## 👨‍🎓 Author
+
+**Nama: M Akbar Ramadhan Ola Sili** 
+**Mata Kuliah: Pemrograman Berbasis Mobile (PBM)** 
+**Project: Tugas 1 Flutter**
+
+---
+
+## 📄 License
+
+Project ini dibuat untuk keperluan pembelajaran dan tugas akademik.
+
+---
+
+## ⭐ Penutup
+
+Project ini merupakan implementasi dasar Flutter dengan fokus pada:
+
+* State management sederhana
+* UI modern
+* Animasi
+* Interaksi pengguna
+
+Semoga project ini dapat menjadi dasar pengembangan aplikasi Flutter yang lebih kompleks di masa mendatang.
